@@ -3,7 +3,8 @@
 
 
 **Table of Contents**:
-1. [Intro to HTML and Javascript](../reading-notes/class-01)
+1. [Class 01](../reading-notes/class-01)
+1. [Class 02](../reading-notes/class-02)
 1. 
 1. 
 1. 
