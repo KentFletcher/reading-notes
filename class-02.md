@@ -35,19 +35,19 @@
 # Basic JavaScript Instructions-
 - **Statements**-  Each individual instruction or step of a script.  **Should end in a \;**
 - **Comments**-  These should be written to explain what your code does.  
-  - Multi-line comments- often to describe how the script works.  Start with \/* and end with the \*/ characters.
-  - Single-line comments- short descriptions of what the code is doing, good for when you have to look back at a script. Anything after \// will be ignored.
+  - Multi-line comments- often to describe how the script works.  Start with /* and end with the \*/ characters.
+  - Single-line comments- short descriptions of what the code is doing, good for when you have to look back at a script. Anything after // will be ignored.
 - **Variables**- A script will have to temporarily store the bits of information it need to do its job, it store that data as variables.  Data stored within a variable will often change each time a script runs.  Result of a script  are said to be calculated using the data stored in variables.
  - Before you can use a variable you must declare the variable so you would say var quantity;, with quantity being the variable name or identifier..  var is a *keyword*.  That keyword now represents the var.  
  - Once you have created a var, you can tell it what info you would like it to store for you.  Programmers say you would **assign**, represented by \=, a value to the var.
-   EX.  \quantity = 3; with quantity the var name, \= as the assignment operator, and 3 as the var value, then always end with \;
+   EX.  quantity = 3; with quantity the var name, \= as the assignment operator, and 3 as the var value, then always end with ;
 - **Data Types**-
   * Numeric- handles numbers.
   * String- letters and other characters, within set of quotes.
   * Boolean- can have one of 2 variables, true or false.
 - Rules for naming a Variable:
   1. name must begin with a letter, dollar sign, or underscore.  It cannot start with a number
-  1. can have letter, \$, \_.  Cannot have dash or period.
+  1. cannot have dash or period.
   1. cannot use keywords of reserved words.
   1. they are case sensitive
   1. need to describe the kind of info that is stores.
@@ -80,7 +80,7 @@
     - Operands can be values or variables.  
     - The operand can be an *expression*, meaning it does not have to be a single variable name of value. This would be structured with in parenthesis, and can have 2 operand being combined within parenthesis on either side of a comparison operator.
 - **Logical Operators**- Allow you to compare the results of more than one comparison operator.
-  - \&\& : Logical And- Tests more than one condition.  If both expressions evaluate to true then the expression returns true.  If just one returns false then the expression will return false.
+  - && : Logical And- Tests more than one condition.  If both expressions evaluate to true then the expression returns true.  If just one returns false then the expression will return false.
   - \|\| : Logical Or- Tests at least one condition. If either expression evaluates to true, then will return true.  If both are false, will return false. 
   - \! :  Logical Not- Takes a single Boolean value and inverts it.  If it was false, with a /! in front of it, it would return true. If the statement was true would return false.
   
