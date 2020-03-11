@@ -9,7 +9,7 @@
 1. Submitting forms- the submit button, image buttons, upload or browse buttons.
 - Each form control is given a name, and the text the user types in or the values of the options they select are sent to the server.
 - The form element always carries the action attribute and its value is the URL for the page on the server that will receive the information in the form when it is submitted.  The form element will also often carry the methods attribute which is the way the form can be sent, it can have 2 values: get or post.  It can also have the id attribute, which is often referenced by the scripts, can also be use to identify the distinctly from other elements on the page.
-- <input> is used to create several different form controls.  The value of the type attribute determines what kind of input they will be creating. the attributes of the input include:
+- The input element is used to create several different form controls.  The value of the type attribute determines what kind of input they will be creating. the attributes of the input include:
   - type="text" it creates a single line text input.
     - name- tells the server which control each piece of data was entered into
     - maxlength- this can be used to limit the number of characters that the user can enter into the form.
