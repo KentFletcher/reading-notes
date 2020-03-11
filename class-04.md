@@ -27,7 +27,7 @@ Pair programming is a common technique used by many companies.  It is the practi
 
 # Layout
 - Controlling the position of elements.
-  - Normal flow- positon:static
+  - Normal flow- position:static
   - Relative positioning- position:relative
   - Absolute positioning- position:absolute
   - Fixed positioning- position:fixed
@@ -43,7 +43,7 @@ Pair programming is a common technique used by many companies.  It is the practi
   - Containing elements
 - Layout grids- help create professional and flexible designs.
 - CSS Frameworks proved rules for common tasks
-- You cna include multiple CSS files in one page
+- You can include multiple CSS files in one page
 
 # Functions, Methods ands Objects
 # Functions-
