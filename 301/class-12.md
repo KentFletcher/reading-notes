@@ -1,0 +1,6 @@
+## EJS Partials
+Partials make large websites easier to maintain as you don't have to go and change a piece of text in every page it appears in.  Rather, you define that reusable bundle of code in a file and include it wherever you need it.
+- Works well with things such as footers and nav bars that need to appear consistently on pages through out your site.
+  - You start with a views directory, and then create a separate file for each partial section that you would like to add, such as navbar.ejs, which would hold only the HTML for the navigation bar to be displayed at the top of the pages.  You would put each snippet to be recreated in its own file, and that is all that file would contain, so for example yu would also make a footer.ejs, that would just contain the HTML for the footer section you would like to consistently display.
+  - You would then include them in your main ejs files where they are to be displayed by the <% %> delimiters.
+    - EX.`` <%- include('PARTIAL_FILE') %> `` or from the above example of navbar.ejs, it would look like: ``<%- include ('partials/navbar') %>``
